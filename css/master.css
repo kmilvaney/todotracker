@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Patua+One|Arimo');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Arimo', sans-serif;
+  font: normal normal 13px/16px "Arimo", sans-serif;
+  /* background: #edf4ff; */
+  background: #d4e1c5;
+}
+
+.container{
+padding: 20px;
+width: 300px;
+margin: 0 auto;
+margin-top: 40px;
+background: white;
+border-radius: 5px;}
+
+h2 {
+  font-family: 'Patua One', cursive;
+  font-size: x-large;
+  text-align: center;
+}
+
+form {
+display: inline-block;
+}
+
+input{
+padding: 4px 15px 4px 5px;
+}
+
+#add-button{
+display: inline-block;
+background-color:#477998;
+color:#ffffff;
+border-radius: 5px;
+text-align:center;
+margin-top:2px;
+padding: 5px 15px;
+}
+
+#add-button:hover{
+cursor: pointer;
+opacity: .8;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  border-bottom: 1px;
+  padding: 6px;
+  cursor: pointer;
+}
+/*Use zebra stripes for the to do list items */
+ul li:nth-child(even){background: #e0dbda;}
+ul li:nth-child(odd){background: #f7f3f1;}
+
+.strike{text-decoration: line-through;}
+
+li:hover{
+  cursor: pointer;
+ }
